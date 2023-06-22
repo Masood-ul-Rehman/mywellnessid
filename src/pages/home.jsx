@@ -33,7 +33,7 @@ const HomePage = () => {
 
   return (
     <div className="bg-background">
-      <div className="bg-background2 relative z-10 div1">
+      <div className="bg-backgroundLight relative z-10 div1">
         <div className="pt-10  ">
           <Header />
         </div>
@@ -82,11 +82,10 @@ const HomePage = () => {
                 experience, our goal is to move healthcare forward by finding a
                 cure for each disease.
                 <br />
-                My Wellness ID Wallet runs on the Polygon Blockchain, and
-                transactions are powered by its currency MATIC.AI health
-                recommendations will be delivered in users wallets as NFT's
-                (Non-fungible Tokens) that have been minted to the Blockchain
-                and can easily be shared with your healthcare provider.
+                AI health recommendations will be delivered in users wallets as
+                NFT's (Non-fungible Tokens) that have been minted to the
+                Blockchain and can easily be shared with your healthcare
+                provider.
               </h4>
               <button className="gradient px-6 py-5 rounded-xl mt-6">
                 Connect Wallet
