@@ -33,8 +33,8 @@ const HomePage = ({ isLoading }) => {
   }, []);
 
   return (
-    <div className="bg-background">
-      <div className="bg-backgroundLight relative z-10 div1">
+    <div className="bg-backgroundMain">
+      <div className="bg-background relative z-10 div1">
         <div className="pt-10  ">
           <Header loading={isLoading} />
         </div>
@@ -62,7 +62,7 @@ const HomePage = ({ isLoading }) => {
         </div>
       </div>
       <div
-        className="bg-background div2 lg:block hidden"
+        className="bg-backgroundMain div2 lg:block hidden"
         ref={divRef}
         style={{
           borderTopLeftRadius: `${borderRadius}px`,

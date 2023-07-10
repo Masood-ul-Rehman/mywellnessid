@@ -13,11 +13,10 @@ module.exports = {
       },
 
       colors: {
-        background: "#FAFDF8",
-        background2: "#E1F4CB",
-        backgroundLight: "#EBF8DD",
+        background: "#F7FFF8",
+        backgroundMain: "#ffff",
         text: "#202020",
-        desc: "#5A5A5A",
+        desc: "#575757",
         prim: "#009797",
         sec: "#C9E9E9",
       },

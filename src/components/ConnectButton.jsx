@@ -17,6 +17,7 @@ const ConnectButton = ({ loading }) => {
     const magicProvider = await magic.wallet.getProvider();
     const web3 = new Web3(magicProvider);
     const Getaccount = await magic.wallet.connectWithUI();
+    console.log(Getaccount);
     setData(Getaccount[0]);
     loading(false);
   };
