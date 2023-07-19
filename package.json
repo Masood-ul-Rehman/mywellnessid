@@ -10,6 +10,7 @@
     "magic-sdk": "^18.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
     "react-router": "^6.13.0",
     "react-router-dom": "^6.13.0",
     "react-scripts": "5.0.1",
@@ -31,9 +32,11 @@
   },
   "browserslist": {
     "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
+      "chrome >= 67",
+      "edge >= 79",
+      "firefox >= 68",
+      "opera >= 54",
+      "safari >= 14"
     ],
     "development": [
       "last 1 chrome version",

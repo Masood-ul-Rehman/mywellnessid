@@ -30,7 +30,10 @@ div:focus {
   }
   .mobileNav {
     display: block !important;
-    background-color: #c9e9e9 !important;
+    background: var(
+      --gradient-3,
+      linear-gradient(132deg, #cff4d2 0%, #d9ffef 100%)
+    );
   }
   .bt {
     display: block;

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import logo from "../assets/images/logo.png";
+import logo from "../assets/images/logo.svg";
 import hamburgerMenu from "../assets/images/burger.png";
 import cross from "../assets/images/cross.png";
 import ConnectButton from "./ConnectButton";

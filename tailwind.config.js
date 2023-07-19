@@ -19,6 +19,8 @@ module.exports = {
         desc: "#575757",
         prim: "#009797",
         sec: "#C9E9E9",
+        grad1: "#cff4d2",
+        grad2: "#d9ffef",
       },
     },
   },

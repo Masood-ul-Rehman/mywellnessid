@@ -7,7 +7,11 @@ function Footer() {
     <>
       <footer className="gradient flex items-center flex-col py-16 lg:mt-36 mt-24">
         <Link href="/">
-          <img src={logo} alt="My Wellness Id logo" className="" />
+          <img
+            src={logo}
+            alt="My Wellness Id logo"
+            className="md:w-[200px] w-[150px]"
+          />
         </Link>
         <ul className="sm:flex text-center menu mt-6">
           <li id="homeLink" className="text-desc px-6">

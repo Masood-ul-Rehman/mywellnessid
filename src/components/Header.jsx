@@ -17,11 +17,7 @@ const Header = () => {
       <>
         <nav className="lg:flex navi justify-between items-center cursor-pointer  xl:mx-36 lg:mx-24 md:mx-20 sm:mx-20 mx-10">
           <Link to="/">
-            <img
-              src={logo}
-              alt="My Wellness Id logo"
-              className="laptop:w-full"
-            />
+            <img src={logo} alt="My Wellness Id logo" className="w-[200px]" />
           </Link>
           <div className="gradient py-3 rounded-2xl lg:block hidden">
             <ul className="flex items-center">
@@ -62,10 +58,14 @@ const Header = () => {
             <ConnectButton />
           </div>
         </nav>
-        <nav className="mobileNav hidden justify-between items-center cursor-pointer md:mx-20 sm:mx-20 mx-10 bg-sec  p-4 rounded-[14px] rounder-">
-          <div className="flex justify-between">
+        <nav className="mobileNav hidden justify-between  gradient  items-center cursor-pointer md:mx-20 sm:mx-20 mx-10 bg-sec  p-4 rounded-[14px] rounder-">
+          <div className="flex justify-between items-center">
             <a href="/">
-              <img src={logo} alt="My Wellness Id logo" className="w-[60%]" />
+              <img
+                src={logo}
+                alt="My Wellness Id logo"
+                className="sm:w-[150px] w-[100px]"
+              />
             </a>
             <div>
               <img
@@ -84,7 +84,7 @@ const Header = () => {
           </div>
         </nav>
         <div
-          className={`md:mx-20 sm:mx-20 mx-10 p-4 menu flex-col bg-sec rounded-bl-[14px] rounded-br-[14px] -mt-10 ${
+          className={`md:mx-20 sm:mx-20 mx-10 p-4 menu flex-col gradient  rounded-bl-[14px] rounded-br-[14px] -mt-10 ${
             menuActive ? "flex" : "hidden"
           }`}
         >
