@@ -3,9 +3,7 @@ import heroImg from "../assets/images/hero-img.png";
 import im2 from "../assets/images/im2.png";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import Scroll from "../components/SmoothScrool";
 import ConnectButton from "../components/ConnectButton";
-
 const HomePage = ({ isLoading }) => {
   const divRef = useRef(null);
 
