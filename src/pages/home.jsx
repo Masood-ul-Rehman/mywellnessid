@@ -39,13 +39,16 @@ const HomePage = ({ isLoading }) => {
         <div className="xl:mx-36 lg:mx-24 md:mx-20 sm:mx-20 mx-10 ">
           <hero className="lg:flex block justify-between flex-wrap xl:mt-36 mt-24 items-center">
             <div className="xxl:pr-28 lg:pr-20 lg:w-[50%]">
-              <h1 className="xxl:text-[3rem] xxl:leading-[2.8rem] laptop:text-4xl lg:text-3xl md:text-4xl text-3xl">
-                Monitor Your Health in Real-Time With AI Recommendations
+              <h1 className="xxl:text-[2.4rem] xxl:leading-[3rem] laptop:text-4xl lg:text-3xl md:text-3xl text-2xl">
+                Monitor Autoimmune and Inflammatory Diseases in Real-Time With
+                AI Recommendations.
               </h1>
               <h4 className="mt-6">
                 Stay on top of your health with My Wellness ID – a mobile app
-                that syncs with your wearable device and a webapp that allows
-                patients and doctors to access your real-time health monitoring.
+                that syncs with your wearable device and integrates your
+                electronic health records. Providing a webapp that allows
+                patients and doctors to access real-time health monitoring with
+                artificial intelligence observations and assistance.
               </h4>
               <div className="mt-6">
                 <ConnectButton loading={isLoading} />
